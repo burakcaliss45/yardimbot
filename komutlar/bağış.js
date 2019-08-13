@@ -7,8 +7,8 @@ exports.run = async (client,message,args) => {
                 .setColor("#FF8C00")
                 .setAuthor(`${message.author.username} tarafından istendi.`, message.author.avatarURL)
                 .addField("**Ödeme Yönetemi**\n", "_**İNİNAL**_")
-                .addField("**Barkod numarası:**\n", "_**4091650007989**_")
-                .addField("**İsim Soyisim**\n", "_**Batuhan Karakaya**_")
+                .addField("**Barkod numarası:**\n", "_** **_")
+                .addField("**İsim Soyisim**\n", "_** **_")
                 .setTimestamp()
         message.channel.send({embed})
 }

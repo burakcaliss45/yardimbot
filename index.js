@@ -84,12 +84,6 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'ip') {
-    msg.reply('```🔻QUANTUM RP🔻İP🔻 QUANTUM RP İYİ OYUNLAR DİLER ...```');
-  }
-});
-
 client.elevation = message => {
   if(!message.guild) {
 	return; }
@@ -467,30 +461,6 @@ client.on('message', message => {
   })
        }
 });
-
-client.on('message', msg => {
-  if (msg.content === '.ip') {
-    msg.reply('```🔻QUANTUM RP🔻 🔻İP: 185.255.94.104:30120🔻 QUANTUM RP İYİ OYUNLAR DİLER ... ```');
-  }
-})
-
-client.on('message', msg => {
-  if (msg.content === '.discord') {
-    msg.reply('```🔻QUANTUM RP DİSCORD İP🔻 🔻https://discord.gg/7gMrfX🔻 🔻QUANTUM RP İYİ OYUNLAR DİLER ...```');
-  }
-})
-
-client.on('message', msg => {
-  if (msg.content === '.destek') {
-    msg.reply('@⚙️「𝒀𝑬𝑻𝑲𝑰𝑳𝑰 𝑷𝑬𝑹𝑺𝑶𝑵𝑬𝑳」 @💼「𝑲𝑨𝒀𝑰𝑻 𝑷𝑬𝑹𝑺𝑶𝑵𝑬𝑳𝑰」 𝑬𝑵 𝑲𝑰𝑺𝑨 𝑺𝑼𝑹𝑬𝑫𝑬 𝑩𝑨𝑲𝑨𝑪𝑨𝑲𝑻𝑰𝑹 ! Q𝑼𝑨𝑵𝑻𝑼𝑴  𝑹𝑷 ');
-  }
-})
-
-client.on('message', msg => {
-  if (msg.content === '.bakım') {
-    msg.reply('⚙️QUANTUM RP Bakıma Alınmıştır En Kısa Süre İçinde Aktif Olacaktır !! ✔️Lütfen Aktif Yazısı Geçilmeden Servera Girmeyiniz !! :crown:Sizin İçin Herşeyin En İyisi QUANTUM RP !!');
-  }
-})
 
 client.on('message', msg => {
   if (msg.content === 'iyi geceler') {
